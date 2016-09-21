@@ -126,8 +126,5 @@ int function() {
     else
         sumdays = SumDay(data1) - SumDay(data2);
     cout << "you have alive " << sumdays << " days!" << endl;
-    getchar();
-    getchar();
-
-    return sumdays;
+        return sumdays;
 }
